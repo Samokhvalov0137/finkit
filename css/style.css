@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: url("../fonts/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 500;
+  src: url("../fonts/Inter-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 600;
+  src: url("../fonts/Inter-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-weight: 700;
+  src: url("../fonts/Inter-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Soniano Sans Unicode";
+  font-weight: 400;
+  src: url("../fonts/Soniano-Sans-Unicode-Regular.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+input {
+  outline: none;
+}
+
+.container {
+  max-width: 1024px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.intro {
+  background-color: #CBECFF;
+}
+
+.intro-description{
+  max-width: 384px;
+  padding-top: 129px;
+  margin-right: 87px;
+}
+
+.intro-logo{
+  width: 222px;
+}
+
+.intro-logo img{
+  width: 100%;
+}
+
+
+.intro-title{
+  margin-top: 11px;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 130%;
+color: #29374E;
+}
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border: none;
+}
+
+.btn--callback {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 140%;
+  color: #ffffff;
+  background-color: #0962E8;
+  padding: 14px 20px;
+  border-radius: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+.intro-btn {
+  max-width: 200px;
+  margin-top: 38px;
+}
+
+
+.intro-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.intro-img{
+  max-width: 740px;
+}
+
+.intro-img img {
+  width: 100%;
+}
+
+.intro-bottom{
+  position: relative;
+  top: 26px;
+}
+
+.intro-elements{
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-element{
+  background: #FFFFFF;
+box-shadow: 6px 4px 12px rgba(0, 0, 0, 0.05);
+border-radius: 20px;
+max-width: 241px;
+padding: 22px 20px 30px;
+display: flex;
+}
+
+.intro-element__img{
+  position: relative;
+  top: -10px;
+}
+
+@media screen and (max-width: 1300px) {
+
+}
